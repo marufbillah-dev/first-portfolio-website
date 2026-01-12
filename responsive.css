@@ -5,7 +5,7 @@
 /* Small Device : ≥576px */
 @media screen and (max-width: 576px) {
   .container {
-    padding: 0 10px;
+    padding: 0 20px;
     margin: 0 auto;
   }
   #about,
@@ -82,4 +82,29 @@
     margin-bottom: 10px;
   }
   /* skills section ends */
+
+  /* resume section starts */
+  .resume-container{
+    flex-direction: column;
+    gap: 50px;
+  }
+  #resume .section-heading{
+    margin-bottom: 30px;
+  }
+  #resume .resume-heading{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  #resume .card-heading{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #resume .card-subheading{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #resume .download-cv {
+    margin: 20px 0 113px 0;
+}
+  /* resume section ends */
 }
