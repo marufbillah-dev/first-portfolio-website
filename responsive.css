@@ -68,4 +68,18 @@
     text-align: center;
   }
   /* about section ends */
+
+  /* skills section starts */
+  #skills .card-container {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  #skills .skills-card {
+    max-width: 100%;
+  }
+  #skills .skills-card img{
+    margin-bottom: 10px;
+  }
+  /* skills section ends */
 }
