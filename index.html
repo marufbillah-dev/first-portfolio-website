@@ -21,6 +21,7 @@
     />
     <!-- css link -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body class="open-sans">
     <!-- header starts -->
@@ -51,12 +52,14 @@
             Shot what able cold new see hold. Friendsly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn">
-            <i class="fa-solid fa-download"></i> Download CV
-          </button>
-          <button class="btn btn-outline">
-            <i class="fa-solid fa-phone"></i> Contact
-          </button>
+          <div class="btn-group">
+            <button class="btn">
+              <i class="fa-solid fa-download"></i> Download CV
+            </button>
+            <button class="btn btn-outline">
+              <i class="fa-solid fa-phone"></i> Contact
+            </button>
+          </div>
         </div>
         <div class="banner-image">
           <img src="images/maruf.png" alt="Maruf Billah Photo" />
@@ -67,8 +70,9 @@
     <!-- header ends -->
 
     <!-- about section starts -->
-    <div class="about-section">
-      <section id="about">
+
+    <section id="about" class="hidden">
+      <div class="about-box">
         <div class="about-container container">
           <div class="section-heading">
             <h2>About Me</h2>
@@ -99,13 +103,13 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <!-- about section ends -->
 
     <!-- skills section starts -->
-    <section id="skills">
+    <section id="skills" class="hidden">
       <div class="skills-container container">
         <div class="section-heading">
           <h2>What I do</h2>
@@ -159,7 +163,7 @@
     <!-- skills section ends -->
 
     <!-- resume section starts -->
-    <section id="resume">
+    <section id="resume" class="hidden">
       <div class="section-heading">
         <h2>A summary of My Resume</h2>
       </div>
@@ -236,7 +240,7 @@
     <!-- resume section ends -->
 
     <!-- footer starts -->
-    <footer>
+    <footer class="hidden">
       <div class="footer-container container">
         <div class="socials-connect">
           <h2>Lets Connect</h2>

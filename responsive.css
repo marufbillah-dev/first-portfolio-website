@@ -1,0 +1,43 @@
+.hidden {
+  display: none !important;
+}
+
+/* Small Device : ≥576px */
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  /* header (Navbar and Hero/Banner Section) starts */
+  header {
+    padding-top: 10px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #banner {
+    padding: 30px 10px 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .banner-content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .banner-content p {
+    margin-bottom: 20px;
+  }
+  .banner-content .btn-group {
+    gap: 10px;
+    justify-content: center;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  /* header (Navbar and Hero/Banner Section) ends */
+}

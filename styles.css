@@ -14,10 +14,6 @@
   padding: 0 215px;
 }
 
-.about-section {
-  padding: 0 215px;
-}
-
 .btn {
   padding: 18px 36px;
   color: white;
@@ -149,8 +145,9 @@ nav {
   margin-bottom: 30px;
 }
 
-.banner-content button {
-  margin-right: 30px;
+.banner-content .btn-group {
+  display: flex;
+  gap: 20px;
 }
 
 .banner-image img {
@@ -160,6 +157,10 @@ nav {
 /* banner/hero section ends */
 
 /* about section stars */
+.about-box {
+  padding: 0 215px;
+}
+
 #about .about-container {
   text-align: center;
   background-color: #fff8f3;
