@@ -8,10 +8,20 @@
     padding: 0 10px;
     margin: 0 auto;
   }
+  #about,
+  #skills,
+  #resume {
+    padding-top: 60px;
+  }
+
   /* header (Navbar and Hero/Banner Section) starts */
   header {
     padding-top: 10px;
+    background: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
   }
+
   nav {
     flex-direction: column;
     gap: 10px;
@@ -40,4 +50,22 @@
     width: 100%;
   }
   /* header (Navbar and Hero/Banner Section) ends */
+
+  /* about section starts */
+  .about-box {
+    padding: 0 10px;
+  }
+  #about .about-container {
+    padding: 50px 60px;
+  }
+  .about-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  /* about section ends */
 }
